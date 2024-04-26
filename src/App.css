@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Train+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans&display=swap);
+.trainone {
+  font-family: Train One, cursive;
+}
+* {
+  user-select: none;
+}
+.ptsans {
+  font-family: PT Sans, sans-serif;
+}
+.trans,
+.trans:hover {
+  transition-duration: 1s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.trans:hover {
+  box-shadow: inset 0 0.2rem 0.4rem 0 #0000001a;
+}
+.neumorphic {
+  background-color: #f0f0f0;
+  box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #fff;
+  transition: all 3s ease-in-out;
+}
+.neumorphic:hover {
+  box-shadow: inset 10px 10px 20px #cbced1, inset -10px -10px 20px #fff;
+}
+.neumorphic-input {
+  background-color: #f0f0f0;
+  box-shadow: inset 5px 5px 10px #cbced1, inset -5px -5px 10px #fff;
+  transition: all 0.3s ease-in-out;
+}
+.neumorphic-input:hover {
+  box-shadow: inset 10px 10px 20px #cbced1, inset -10px -10px 20px #fff;
+}
+.neumorphic-button {
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 10px #cbced1, -5px -5px 10px #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.neumorphic-button:hover {
+  box-shadow: inset 10px 10px 20px #e46b6b, inset -10px -10px 20px #1f98b3;
+}
+.neumorphic-select {
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 10px #cbced1, -5px -5px 10px #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.neumorphic-select:hover {
+  box-shadow: inset 10px 10px 20px #cbced1, inset -10px -10px 20px #fff;
+}
+.neumorphic1 {
+  background-color: #f0f0f0;
+  box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.innershadow {
+  padding: 1.5em 5em;
+  background: #efefef;
+  border: none;
+  border-radius: 0.5rem;
+  color: #444;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 1px -1px 6px rgba(255, 255, 255, 0.7),
+    1px -1px 8px rgba(255, 255, 255, 0.5),
+    3px 1px 8px rgba(255, 255, 255, 0.075), 3px 1px 10px rgba(0, 0, 0, 0.15);
+}
+.innershadow:hover {
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.6),
+    -2px -2px 4px rgba(255, 255, 255, 0.4),
+    2px 2px 2px rgba(255, 255, 255, 0.05), 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.bg-bluecolor {
+  background-color: #152e4d;
+}
+.font-color {
+  color: #edf2f9;
+}
+.bg-active {
+  background-color: #112742;
+}
+.innershadow:active {
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.7),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 2px rgba(255, 255, 255, 0.075),
+    inset 2px 2px 4px rgba(10, 10, 10, 0.15);
+}
+
+.heading {
+  background-color: transparent;
+  padding: 10px;
+  background: #155e50;
+}
+.content {
+  cursor: pointer;
+  font-family: "Cairo";
+  padding: 10px;
+  align-items: center;
+  margin-left: 10px;
+}
+.parentcontent {
+  cursor: pointer;
+  font-family: "Cairo";
+  font-weight: bold;
+  padding: 10px;
+  background: #155e50;
+  border-radius: 5px;
+}
+.content:hover {
+  background: #1f98b3;
+  border-radius: 7px;
+}
+.content:active {
+  background: "#1f98b3";
+  border-radius: 7px;
+}
+@font-face {
+  font-family: Cairo;
+  src: url("../Fonts/Cairo-VariableFont_slnt\,wght.ttf");
+}
+
+.transition-all1 {
+  transition: max-height 0.9s ease-in-out;
+  overflow: hidden;
+  max-height: 1000px;
+}
+
